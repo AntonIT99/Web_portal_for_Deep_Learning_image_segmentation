@@ -1,0 +1,6 @@
+Order Deny,Allow
+deny from all
+
+<Files subdirectory/*>
+    deny from all
+</Files>
